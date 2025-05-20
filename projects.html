@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harshit Samant Rai - Projects</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="projects.css">
+    <!-- GSAP and ScrollTrigger CDNs -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+</head>
+<body class="text-white font-sans">
+    <div id="main">
+        <!-- Projects -->
+        <section id="projects" class="w-full px-4 py-8">
+            <h2 class="graffiti text-3xl md:text-4xl font-semibold mb-4 text-white">Projects</h2>
+            <div class="flex flex-col md:flex-row gap-4">
+                <!-- Project Content -->
+                <div class="graffiti-card bg-black p-6 rounded-lg md:w-2/3">
+                    <!-- Category Menu -->
+                    <div class="flex flex-wrap gap-4 mb-6">
+                        <button class="category-btn graffiti bg-gray-900 text-gray-300 px-4 py-2 rounded hover:bg-gray-800" data-category="web-dev">Web Dev</button>
+                        <button class="category-btn graffiti bg-gray-900 text-gray-300 px-4 py-2 rounded hover:bg-gray-800" data-category="machine-learning">Machine Learning</button>
+                        <button class="category-btn graffiti bg-gray-900 text-gray-300 px-4 py-2 rounded hover:bg-gray-800" data-category="business-analysis">Business Analysis</button>
+                    </div>
+                    <!-- Project List -->
+                    <div id="project-list" class="grid md:grid-cols-2 gap-4"></div>
+                    <!-- Project Details -->
+                    <div id="project-details" class="mt-6 hidden">
+                        <h3 id="project-title" class="graffiti text-xl md:text-2xl font-medium text-white"></h3>
+                        <p id="project-description" class="text-gray-400"></p>
+                        <ul id="project-highlights" class="list-disc list-inside text-gray-400 mt-2"></ul>
+                        <a id="project-link" href="#" class="graffiti text-gray-200 hover:underline" target="_blank">View Deployed Project</a>
+                    </div>
+                </div>
+                <!-- Image Sequence Container -->
+                <div id="image-sequence-container" class="md:w-1/3 h-96 md:h-auto" data-debug="image-sequence">
+                    <canvas id="image-sequence-canvas"></canvas>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-black text-gray-400 py-4 text-center">
+        <p class="graffiti">© 2025 Harshit Samant Rai. All rights reserved.</p>
+    </footer>
+
+    <script src="projects.js" defer></script>
+</body>
+</html>
