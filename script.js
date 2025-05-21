@@ -33,6 +33,18 @@ const projects = {
             link: 'https://your-deployed-cricket-score-link.com'
         }
     ],
+    'iot': [
+        {
+            name: 'Smart Parking',
+            description: 'Developed an IoT-based smart parking system to detect and manage available parking spots.',
+            highlights: [
+                'Used Arduino and ultrasonic sensors for real-time vehicle detection.',
+                'Displayed parking availability on an LCD screen and web dashboard.',
+                'Enhanced urban mobility with efficient space utilization.'
+            ],
+            link: 'https://your-smart-parking-demo-link.com'
+        }
+    ],
     'business-analysis': [
         {
             name: 'Sales Dashboard',

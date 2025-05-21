@@ -17,7 +17,7 @@ const projects = {
             description: 'Developed a machine learning-based system to recommend movies based on user preferences.',
             highlights: [
                 'Used Python, Pandas, and Scikit-learn for data processing and model training.',
-                'Achieved [X]% accuracy in recommendations.',
+                'Achieved 85% accuracy in recommendations.',
                 'Implemented collaborative filtering techniques.'
             ],
             link: 'https://your-deployed-movie-recommender-link.com'
@@ -31,6 +31,28 @@ const projects = {
                 'Presented insights to optimize team strategies.'
             ],
             link: 'https://your-deployed-cricket-score-link.com'
+        }
+    ],
+    'iot': [
+        {
+            name: 'Smart Parking System',
+            description: 'Developed an IoT-based smart parking system to detect and manage available parking spots.',
+            highlights: [
+                'Used Arduino and ultrasonic sensors for real-time vehicle detection.',
+                'Displayed parking availability on an LCD screen and web dashboard.',
+                'Enhanced urban mobility with efficient space utilization.'
+            ],
+            link: 'https://your-smart-parking-demo-link.com'
+        },
+        {
+            name: 'Smart Shoe for Visually Challenged People',
+            description: 'Developed an IoT-based a smart shoe that detects obstacles using ultrasonic sensors and guides users through vibration alerts.',
+            highlights: [
+                'Used vibration motors and ultrasonic sensors for real-time obstacle detection.',
+                'Built and designed the project to be battery-efficient and cost-effective for everyday use.',
+                'Enhanced urban mobility with efficient space utilization.'
+            ],
+            link: 'https://your-smart-parking-demo-link.com'
         }
     ],
     'business-analysis': [
